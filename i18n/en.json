@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andreas Jonsson"
+		]
+	},
+        "jsmodules": "JSModules",
+        "jsmodules-desc": "A bundle of javascript modules."
+}

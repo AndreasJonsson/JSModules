@@ -1,0 +1,15 @@
+[submodule "modules/sifter"]
+	path = modules/sifter
+	url = https://github.com/brianreavis/sifter.js.git
+[submodule "modules/microplugin"]
+	path = modules/microplugin
+	url = https://github.com/brianreavis/microplugin.js.git
+[submodule "modules/selectize"]
+	path = modules/selectize
+	url = https://github.com/brianreavis/selectize.js.git
+[submodule "modules/underscore"]
+	path = modules/underscore
+	url = git@github.com:jashkenas/underscore.git
+[submodule "modules/backbone"]
+	path = modules/backbone
+	url = git@github.com:jashkenas/backbone.git

@@ -1,0 +1,39 @@
+{
+	"name": "JSModules",
+	"author": [
+		"Andreas Jonsson"
+	],
+	"version": "1.1",
+	"url": "https://kreablo.se",
+	"license-name": "GPL-3.0",
+	"type": "other",
+	"MessagesDirs": {
+		"JSModules": [
+			"i18n"
+		]
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "ImageSelector"
+	},
+	"ResourceModules": {
+		"ext.jsmodules.sifter": {
+			"scripts": ["modules/sifter/sifter.js"]
+		},
+		"ext.jsmodules.microplugin": {
+			"scripts": ["modules/microplugin/microplugin.js"]
+		},
+		"ext.jsmodules.selectize": {
+			"scripts": ["modules/selectize/dist/js/selectize.js"],
+			"styles": ["modules/selectize/dist/less/selectize.default.less"],
+			"dependencies": [ "ext.jsmodules.microplugin", "ext.jsmodules.sifter" ]
+		},
+		"ext.jsmodules.underscore": {
+			"scripts": ["modules/underscore/underscore.js"]
+		},
+		"ext.jsmodules.backbone": {
+			"scripts": ["modules/backbone/backbone.js"],
+			"dependencies": ["ext.jsmodules.underscore"]
+		}
+	}
+}
