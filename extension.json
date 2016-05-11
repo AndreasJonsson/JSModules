@@ -14,7 +14,7 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteExtPath": "ImageSelector"
+		"remoteExtPath": "JSModules"
 	},
 	"ResourceModules": {
 		"ext.jsmodules.sifter": {
